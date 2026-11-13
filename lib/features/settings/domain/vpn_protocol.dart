@@ -1,4 +1,4 @@
-import 'package:hivpn/core/utils/iterable_extensions.dart';
+import 'package:sadsha_hivpn/core/utils/iterable_extensions.dart';
 
 enum VpnProtocol { wireGuard, openVpn, ikev2 }
 
@@ -8,15 +8,15 @@ extension VpnProtocolX on VpnProtocol {
   String get label {
     switch (this) {
       case VpnProtocol.wireGuard:
-        return 'WireGuard';
+        return 'WireGuard (coming soon)';
       case VpnProtocol.openVpn:
-        return 'OpenVPN (coming soon)';
+        return 'OpenVPN';
       case VpnProtocol.ikev2:
         return 'IKEv2 (coming soon)';
     }
   }
 
-  bool get isSupported => this == VpnProtocol.wireGuard;
+  bool get isSupported => this == VpnProtocol.openVpn;
 }
 
 extension VpnDnsOptionX on VpnDnsOption {
@@ -34,7 +34,7 @@ extension VpnDnsOptionX on VpnDnsOption {
 
 VpnProtocol protocolFromName(String? name) {
   return VpnProtocol.values.firstWhereOrNull((p) => p.name == name) ??
-      VpnProtocol.wireGuard;
+      VpnProtocol.openVpn;
 }
 
 VpnDnsOption dnsOptionFromName(String? name) {

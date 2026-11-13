@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <application
-        android:label="hivpn"
+        android:label="SadSha VPN"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon"
         android:usesCleartextTraffic="true"
@@ -61,7 +61,7 @@
 
         <service
             android:name=".vpn.HiVpnTileService"
-            android:label="HiVPN"
+            android:label="SadSha VPN"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
             <intent-filter>
@@ -90,7 +90,7 @@
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.example.hivpn.vpn.ACTION_EXTEND" />
+                <action android:name="com.sadsha.hivpn.vpn.ACTION_EXTEND" />
             </intent-filter>
         </receiver>
     </application>

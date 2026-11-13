@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/services/vpn/openvpn_port.dart';
+import 'package:sadsha_hivpn/services/vpn/openvpn_port.dart';
 
 void main() {
   group('OpenVPN config sanitizer', () {

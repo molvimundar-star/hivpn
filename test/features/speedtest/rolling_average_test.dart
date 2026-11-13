@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/features/speedtest/domain/speedtest_controller.dart';
+import 'package:sadsha_hivpn/features/speedtest/domain/speedtest_controller.dart';
 
 void main() {
   test('rollingAverage uses last five samples when available', () {

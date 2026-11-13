@@ -186,3 +186,41 @@ If you encounter issues:
 **Last Updated**: 2025-10-27
 **Status**: Waiting for asset file creation and app restart to verify VPN Gate API integration
 
+
+---
+
+## Wave 2 — SadSha fork (2026-11-13)
+
+What the 2025-10-27 notes above got wrong, verified against the current code:
+
+- **VPNGate API IS called.** The wiring is complete: controller → repository → API
+  → CSV → Server objects, and connect passes the real OpenVPN config. No "2 static
+  servers" exist anywhere in the code. The refresh button already exists.
+- **No code loads `assets/servers.json` or `assets/speedtest_endpoints.json`.**
+  Nothing in `lib/` references either file, so their absence cannot crash the app.
+  `assets/speedtest_endpoints.json` was still created (empty `[]`) as a defensive
+  measure; `assets/servers.json` was not needed.
+- **`flutter_speed_test_plus` 1.0.10 resolves.** It exists on pub.dev and is pinned
+  in `pubspec.lock`; its `startTesting` signature matches the app's calls. The
+  "cannot be resolved" error in `information.md` is a stale build log — it no longer
+  applies once `flutter pub get` runs.
+- **Real bug found and fixed — protocol gate was backwards.** `VpnProtocol.isSupported`
+  returned true only for WireGuard, but the only engine in the codebase is OpenVPN;
+  the default protocol was WireGuard and there is no protocol picker UI, so every
+  connect attempt hit "Protocol not supported yet". Fixed: `isSupported` now matches
+  `openVpn`, default protocol is `openVpn`, `protocolFromName` falls back to
+  `openVpn`, the error message names OpenVPN, and the labels now read
+  "OpenVPN" / "WireGuard (coming soon)" / "IKEv2 (coming soon)".
+
+**Rebrand to SadSha VPN (branch `complete/hivpn`):** Dart package `hivpn` →
+`sadsha_hivpn` (lib, test, example); Android applicationId/namespace
+`com.example.hivpn` → `com.sadsha.hivpn`, Kotlin package moved to
+`com.sadsha.hivpn`, method channel + intent actions updated to match;
+iOS/macOS bundle IDs → `com.sadsha.hivpn`; Linux app ID → `com.sadsha.hivpn`;
+Windows/Linux binary names → `sadsha_hivpn`; all user-visible "HiVPN" strings →
+"SadSha VPN"; upstream contact details replaced (support email
+`proadrank@gmail.com`, governing law Pakistan); README rewritten.
+
+**NOT verified (no Flutter / Android SDK on this VM, VPNGate blocked by egress):**
+no build was run, no APK, no phone test, live server loading not verified.
+First `flutter build` + device test still pending — see README "Status / known limits".

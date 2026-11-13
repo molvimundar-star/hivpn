@@ -1,4 +1,4 @@
-package com.example.hivpn
+package com.sadsha.hivpn
 
 import android.content.Intent
 import android.net.VpnService
@@ -7,12 +7,12 @@ import android.os.SystemClock
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
-import com.example.hivpn.vpn.HiVpnTileService
+import com.sadsha.hivpn.vpn.HiVpnTileService
 import org.json.JSONObject
 import id.laskarmedia.openvpn_flutter.OpenVPNFlutterPlugin
 
 class MainActivity : FlutterActivity() {
-    private val channelName = "com.example.vpn/VpnChannel"
+    private val channelName = "com.sadsha.hivpn/VpnChannel"
     private val prepareRequestCode = 1001
     private var prepareResult: MethodChannel.Result? = null
     private var pendingExtendIntent = false
@@ -116,6 +116,6 @@ class MainActivity : FlutterActivity() {
     }
 
     companion object {
-        const val ACTION_SHOW_EXTEND_AD = "com.example.hivpn.action.SHOW_EXTEND_AD"
+        const val ACTION_SHOW_EXTEND_AD = "com.sadsha.hivpn.action.SHOW_EXTEND_AD"
     }
 }

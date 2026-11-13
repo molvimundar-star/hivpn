@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'package:hivpn/l10n/app_localizations.dart';
-import 'package:hivpn/services/speedtest/ndt7_service.dart';
-import 'package:hivpn/widgets/speedtest_card.dart';
+import 'package:sadsha_hivpn/l10n/app_localizations.dart';
+import 'package:sadsha_hivpn/services/speedtest/ndt7_service.dart';
+import 'package:sadsha_hivpn/widgets/speedtest_card.dart';
 
 void main() {
   runApp(const SpeedTestExampleApp());

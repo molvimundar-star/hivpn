@@ -23,7 +23,7 @@ class SessionNotificationService {
   static const AndroidNotificationChannel _channel = AndroidNotificationChannel(
     'vpn_session_status',
     'VPN Session Status',
-    description: 'Shows the current HiVPN session status.',
+    description: 'Shows the current SadSha VPN session status.',
     importance: Importance.max,
     showBadge: false,
     enableVibration: false,
@@ -112,7 +112,7 @@ class SessionNotificationService {
           onlyAlertOnce: true,
           category: AndroidNotificationCategory.service,
           priority: Priority.max,
-          ticker: 'HiVPN',
+          ticker: 'SadSha VPN',
           colorized: true,
           color: Colors.blue,
           actions: const [
@@ -217,7 +217,7 @@ class SessionNotificationService {
         priority: Priority.max,
         colorized: true,
         color: Colors.blue,
-        ticker: 'HiVPN',
+        ticker: 'SadSha VPN',
         actions: actions,
       ),
     );

@@ -1,11 +1,11 @@
-package com.example.hivpn.vpn
+package com.sadsha.hivpn.vpn
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
-import com.example.hivpn.MainActivity
+import com.sadsha.hivpn.MainActivity
 
 class HiVpnTileService : TileService() {
     override fun onStartListening() {

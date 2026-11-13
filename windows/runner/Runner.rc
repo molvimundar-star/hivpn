@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "hivpn" "\0"
+            VALUE "CompanyName", "SadSha" "\0"
+            VALUE "FileDescription", "SadSha VPN" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "hivpn" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "hivpn.exe" "\0"
-            VALUE "ProductName", "hivpn" "\0"
+            VALUE "InternalName", "sadsha_hivpn" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 SadSha. All rights reserved." "\0"
+            VALUE "OriginalFilename", "sadsha_hivpn.exe" "\0"
+            VALUE "ProductName", "SadSha VPN" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

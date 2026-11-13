@@ -1,5 +1,5 @@
-name: hivpn
-description: "HiVPN Android MVP"
+name: sadsha_hivpn
+description: "SadSha VPN - free OpenVPN client powered by community VPN Gate servers"
 publish_to: 'none'
 version: 1.0.0+1
 

@@ -80,10 +80,10 @@ class OpenVpnPort implements VpnPort {
 
       await _engine!.initialize(
         groupIdentifier:
-            Platform.isIOS ? 'group.com.example.hivpn' : null,
+            Platform.isIOS ? 'group.com.sadsha.hivpn' : null,
         providerBundleIdentifier:
-            Platform.isIOS ? 'com.example.hivpn.VPNExtension' : null,
-        localizedDescription: 'HiVPN',
+            Platform.isIOS ? 'com.sadsha.hivpn.VPNExtension' : null,
+        localizedDescription: 'SadSha VPN',
       );
 
       _isInitialized = true;

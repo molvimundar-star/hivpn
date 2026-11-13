@@ -13,7 +13,7 @@ import 'ndt7_models.dart';
 
 const _defaultLocateEndpoint =
     'https://locate.measurementlab.net/v2/nearest/ndt/ndt7';
-const _defaultUserAgent = 'hivpn-ndt7/1.0';
+const _defaultUserAgent = 'sadshavpn-ndt7/1.0';
 const _inactivityTimeout = Duration(seconds: 6);
 const _uploadChunkSize = 64 * 1024;
 

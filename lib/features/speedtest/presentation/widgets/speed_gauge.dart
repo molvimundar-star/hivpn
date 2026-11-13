@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:hivpn/theme/colors.dart';
+import 'package:sadsha_hivpn/theme/colors.dart';
 
 const List<double> _defaultTickValues = [0, 10, 20, 25, 30, 35, 40, 50, 100];
 

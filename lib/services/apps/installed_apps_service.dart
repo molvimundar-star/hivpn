@@ -9,7 +9,7 @@ class InstalledAppInfo {
 
 class InstalledAppsService {
   InstalledAppsService({MethodChannel? channel})
-      : _channel = channel ?? const MethodChannel('com.example.vpn/VpnChannel');
+      : _channel = channel ?? const MethodChannel('com.sadsha.hivpn/VpnChannel');
 
   final MethodChannel _channel;
 

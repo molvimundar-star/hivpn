@@ -1,4 +1,4 @@
-package com.example.hivpn.vpn
+package com.sadsha.hivpn.vpn
 
 import android.content.BroadcastReceiver
 import android.content.Context

@@ -77,15 +77,15 @@ class PrivacyPolicyContent extends StatelessWidget {
         children: [
           heading('Privacy Policy'),
           quote(
-            'Summary: HiVPN runs internet speed tests using Measurement Lab (M-Lab) servers. '
+            'Summary: SadSha VPN runs internet speed tests using Measurement Lab (M-Lab) servers. '
             'When you run a test, we send network performance data and your IP address to '
             'M-Lab, who publishes this data as part of their public research dataset. We do '
             'not require accounts or collect persistent identifiers beyond what is needed for the test.',
           ),
           section('1. Who we are and what this policy covers', [
             paragraph(
-              'This Privacy Policy describes how HiVPN Labs ("we", "us", or "our") collects, '
-              'uses, and shares information when you use the HiVPN mobile application ('
+              'This Privacy Policy describes how SadSha ("we", "us", or "our") collects, '
+              'uses, and shares information when you use the SadSha VPN mobile application ('
               '"the App"). The App is a network diagnostic tool that runs internet speed '
               'tests using Measurement Lab (M-Lab)\'s ndt7 service. The App is available on '
               'Android and iOS platforms, with potential future expansion to web and desktop environments.',
@@ -191,7 +191,7 @@ class PrivacyPolicyContent extends StatelessWidget {
             Text('GDPR (EEA, UK)', style: sectionTitleStyle),
             const SizedBox(height: 8),
             paragraph(
-              'Processing is based on your consent (Article 6(1)(a) GDPR). Contact privacy@hivpn.app '
+              'Processing is based on your consent (Article 6(1)(a) GDPR). Contact proadrank@gmail.com '
               'to exercise your rights or lodge a complaint with your local authority.',
             ),
             const SizedBox(height: 16),
@@ -200,7 +200,7 @@ class PrivacyPolicyContent extends StatelessWidget {
             paragraph(
               'Processing is based on your consent. You may withdraw consent, request correction '
               'or deletion of your data, and nominate an individual to exercise rights on your behalf '
-              'in case of death or incapacity. Contact grievance@hivpn.app for grievances.',
+              'in case of death or incapacity. Contact proadrank@gmail.com for grievances.',
             ),
             const SizedBox(height: 16),
             Text('California (CCPA/CPRA)', style: sectionTitleStyle),
@@ -208,8 +208,7 @@ class PrivacyPolicyContent extends StatelessWidget {
             paragraph(
               'California residents may request to know what personal information we collect, '
               'request deletion (excluding M-Lab\'s published test data), and opt out of the sale '
-              'or sharing of personal information. Contact privacy@hivpn.app or visit '
-              'hivpn.app/privacy-requests.',
+              'or sharing of personal information. Contact proadrank@gmail.com.',
             ),
             const SizedBox(height: 16),
             Text('Children\'s Data', style: sectionTitleStyle),
@@ -229,8 +228,8 @@ class PrivacyPolicyContent extends StatelessWidget {
           section('10. Contact information', [
             paragraph(
               'If you have questions about this Privacy Policy or our data practices, contact us at '
-              'privacy@hivpn.app or by mail at HiVPN Labs, 221B Network Lane, Singapore. '
-              'For India-specific inquiries, contact grievance@hivpn.app.',
+              'proadrank@gmail.com. '
+              'For India-specific inquiries, contact proadrank@gmail.com.',
             ),
           ]),
           Padding(
@@ -250,8 +249,8 @@ class PrivacyPolicyContent extends StatelessWidget {
           ),
           section('1. Acceptance of terms', [
             paragraph(
-              'By downloading, installing, or using the HiVPN mobile application, you agree to be '
-              'bound by these Terms of Service. If you do not agree, do not use the App. HiVPN Labs '
+              'By downloading, installing, or using the SadSha VPN mobile application, you agree to be '
+              'bound by these Terms of Service. If you do not agree, do not use the App. SadSha '
               'may update these Terms at any time and will notify you of material changes through '
               'updated effective dates or in-app notifications.',
             ),
@@ -309,14 +308,14 @@ class PrivacyPolicyContent extends StatelessWidget {
             const SizedBox(height: 8),
             paragraph(
               'The App is provided "as is" without warranties of any kind, either express or '
-              'implied. HiVPN Labs disclaims all warranties, including implied warranties of '
+              'implied. SadSha disclaims all warranties, including implied warranties of '
               'merchantability, fitness for a particular purpose, and non-infringement. We do '
               'not guarantee that the App will be uninterrupted, timely, secure, or error-free.',
             ),
           ]),
           section('7. Limitation of liability', [
             paragraph(
-              'To the fullest extent permitted by law, HiVPN Labs shall not be liable for any '
+              'To the fullest extent permitted by law, SadSha shall not be liable for any '
               'indirect, incidental, special, consequential, or punitive damages, including loss '
               'of profits, data, or other intangible losses, resulting from your use of the App. '
               'Our total liability for any claims related to the App shall not exceed USD 100.',
@@ -337,15 +336,14 @@ class PrivacyPolicyContent extends StatelessWidget {
           ]),
           section('10. Governing law and venue', [
             paragraph(
-              'These Terms are governed by the laws of Singapore, without regard to conflict of '
+              'These Terms are governed by the laws of Pakistan, without regard to conflict of '
               'law principles. Any legal action arising under these Terms will be subject to the '
-              'exclusive jurisdiction of the courts located in Singapore.',
+              'exclusive jurisdiction of the courts located in Pakistan.',
             ),
           ]),
           section('11. Contact information', [
             paragraph(
-              'If you have questions about these Terms, contact support@hivpn.app or mail '
-              'HiVPN Labs, 221B Network Lane, Singapore.',
+              'If you have questions about these Terms, contact proadrank@gmail.com.',
             ),
           ]),
           Padding(

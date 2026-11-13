@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 class SessionClock {
   SessionClock({MethodChannel? channel})
-      : _channel = channel ?? const MethodChannel('com.example.vpn/VpnChannel');
+      : _channel = channel ?? const MethodChannel('com.sadsha.hivpn/VpnChannel');
 
   final MethodChannel _channel;
 

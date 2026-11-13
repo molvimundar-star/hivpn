@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/core/utils/time.dart';
+import 'package:sadsha_hivpn/core/utils/time.dart';
 
 void main() {
   test('formatNotificationDuration formats mm:ss with leading zeros', () {

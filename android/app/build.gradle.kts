@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hivpn"
+    namespace = "com.sadsha.hivpn"
     compileSdk = 36
     ndkVersion = "27.0.12077973"
 
@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.hivpn"
+        applicationId = "com.sadsha.hivpn"
         minSdk = 26
         targetSdk = 36
         versionCode = flutter.versionCode?.toInt() ?: 1

@@ -1,9 +1,9 @@
-package com.example.hivpn.vpn
+package com.sadsha.hivpn.vpn
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.example.hivpn.MainActivity
+import com.sadsha.hivpn.MainActivity
 
 class ExtendReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {
@@ -18,6 +18,6 @@ class ExtendReceiver : BroadcastReceiver() {
     }
 
     companion object {
-        const val ACTION_EXTEND = "com.example.hivpn.vpn.ACTION_EXTEND"
+        const val ACTION_EXTEND = "com.sadsha.hivpn.vpn.ACTION_EXTEND"
     }
 }

@@ -20,7 +20,7 @@ class ExtendIntentHandler {
   ExtendIntentHandler(this._ref);
 
   final Ref _ref;
-  static const _channel = MethodChannel('com.example.vpn/VpnChannel');
+  static const _channel = MethodChannel('com.sadsha.hivpn/VpnChannel');
   bool _registered = false;
 
   void initialize() {

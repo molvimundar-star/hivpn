@@ -162,7 +162,7 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
                     },
                     onLearnMore: _showHowItWorksSheet,
                     onPrivacyPolicy: _showPrivacyPolicy,
-                    onViewSource: () => _openLink(Uri.parse('https://github.com/hivpn/hivpn')),
+                    onViewSource: () => _openLink(Uri.parse('https://github.com/molvimundar-star/hivpn')),
                   ),
                   _SpeedTestPage(
                     state: speedTestState,
@@ -372,7 +372,7 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'How HiVPN works',
+                'How SadSha VPN works',
                 style: theme.textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 16),
@@ -380,7 +380,7 @@ class _OnboardingFlowState extends ConsumerState<OnboardingFlow> {
                 icon: Icons.public,
                 title: 'Community servers',
                 description:
-                    'HiVPN connects to public VPNGate relays so you can reach open servers worldwide.',
+                    'SadSha VPN connects to public VPNGate relays so you can reach open servers worldwide.',
               ),
               _DiagramStep(
                 icon: Icons.vpn_lock,

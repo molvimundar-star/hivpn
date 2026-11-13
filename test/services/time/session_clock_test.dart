@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/services/time/session_clock.dart';
+import 'package:sadsha_hivpn/services/time/session_clock.dart';
 
 class _FakeClock extends SessionClock {
   _FakeClock(this._now);

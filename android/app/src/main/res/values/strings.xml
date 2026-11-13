@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HiVPN</string>
+    <string name="app_name">SadSha VPN</string>
     <string name="notification_disconnect">Disconnect</string>
     <string name="notification_extend">Extend</string>
     <string name="notification_time_left">Time left: %1$s</string>

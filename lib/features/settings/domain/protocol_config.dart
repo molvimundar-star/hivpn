@@ -4,7 +4,7 @@ import 'vpn_protocol.dart';
 
 class ProtocolConfig extends Equatable {
   const ProtocolConfig({
-    this.protocol = VpnProtocol.wireGuard,
+    this.protocol = VpnProtocol.openVpn,
     this.mtu = 1280,
     this.keepaliveSeconds = 25,
     this.dnsOption = VpnDnsOption.cloudflare,

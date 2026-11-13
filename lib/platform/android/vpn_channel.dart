@@ -12,7 +12,7 @@ import '../../services/vpn/vpn_port.dart';
 class AndroidVpnChannel implements VpnPort {
   factory AndroidVpnChannel({MethodChannel? channel}) {
     _instance ??= AndroidVpnChannel._(
-      channel ?? const MethodChannel('com.example.vpn/VpnChannel'),
+      channel ?? const MethodChannel('com.sadsha.hivpn/VpnChannel'),
     );
     return _instance!;
   }

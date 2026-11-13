@@ -359,7 +359,7 @@ class SessionController extends StateNotifier<SessionState> {
       _log('Protocol not supported: ${settingsState.protocol.protocol}');
       state = state.copyWith(
         status: SessionStatus.error,
-        errorMessage: 'Protocol not supported yet. Please select WireGuard.',
+        errorMessage: 'Protocol not supported yet. Please select OpenVPN.',
       );
       return;
     }

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/features/history/presentation/history_screen.dart';
+import 'package:sadsha_hivpn/features/history/presentation/history_screen.dart';
 
 void main() {
   test('format duration provides hours and minutes', () {

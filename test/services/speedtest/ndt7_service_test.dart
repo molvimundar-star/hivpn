@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:hivpn/services/speedtest/ndt7_models.dart';
+import 'package:sadsha_hivpn/services/speedtest/ndt7_models.dart';
 
 void main() {
   group('Ndt7ServerMetrics', () {
